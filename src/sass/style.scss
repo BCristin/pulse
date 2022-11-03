@@ -1,0 +1,27 @@
+@import 'base/variables';
+@import 'base/mixin';
+
+* {
+   font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.baze {
+   background-color: antiquewhite;
+   width: 500px;
+   height: 500px;
+   border: 2px solid silver;
+}
+
+.first {
+   width: 100px;
+   height: 200px;
+   border: 2px solid black;
+   background-color: blue;
+}
+
+.second {
+   width: 100px;
+   height: 200px;
+   border: 2px solid black;
+   background-color: red;
+}
