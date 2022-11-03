@@ -8,5 +8,18 @@
 .container {
    max-width: 950px;
    margin: 0 auto;
-   border: 2px solid silver;
+
+   border: 1px solid black
 }
+
+div {
+   border: 1px solid silver;
+}
+
+a {
+   color: white
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons'
