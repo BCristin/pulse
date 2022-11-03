@@ -9,12 +9,12 @@
    max-width: 950px;
    margin: 0 auto;
 
-   border: 1px solid black
+   // border: 1px solid black
 }
 
-div {
-   border: 1px solid silver;
-}
+// div {
+//    border: 1px solid silver;
+// }
 
 a {
    color: white
@@ -22,4 +22,6 @@ a {
 
 @import 'blocks/promo';
 @import 'blocks/header';
-@import 'blocks/buttons'
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/title'
