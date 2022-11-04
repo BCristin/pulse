@@ -1,0 +1,65 @@
+@media (max-width: 600px) {
+   .header {
+      flex-direction: column;
+      gap: 20px;
+
+      &__logo {
+         order: 2;
+         width: 80vw;
+
+      }
+
+      &__official {
+         order: 1;
+      }
+
+      &__contacts {
+         order: 3;
+         flex-direction: row;
+         gap: 30px;
+      }
+
+   }
+
+   .promo {
+      background-position-x: -700px;
+
+      &__header {
+         text-align: end;
+         font-size: 32px;
+      }
+
+      &__subheader {
+         text-align: end;
+         font-size: 21px;
+      }
+
+      &__icons {
+         width: 100%;
+      }
+   }
+
+   .advantages {
+      &__wrapper {
+         flex-direction: column;
+         gap: 50px;
+      }
+
+      &__item {
+         max-width: 80%;
+         margin: 0 auto;
+      }
+   }
+
+   .consultation {
+      .title_left {
+         text-align: center;
+      }
+
+      .feed-form {
+         margin: 36px auto 0;
+      }
+
+      text-align: center;
+   }
+}

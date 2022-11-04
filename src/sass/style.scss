@@ -12,7 +12,8 @@
    // border: 1px solid black
 }
 
-// div {
+// div,
+// form {
 //    border: 1px solid silver;
 // }
 
@@ -24,4 +25,7 @@ a {
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
-@import 'blocks/title'
+@import 'blocks/title';
+@import 'blocks/media';
+@import 'blocks/consultation';
+@import 'blocks/forms';
