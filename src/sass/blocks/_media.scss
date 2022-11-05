@@ -62,4 +62,18 @@
 
       text-align: center;
    }
+
+   .carousel {
+
+      .prev,
+      .next {
+         display: none;
+      }
+
+      &__inner {
+         img {
+            max-width: 100%;
+         }
+      }
+   }
 }

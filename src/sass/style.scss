@@ -6,11 +6,16 @@
 }
 
 .container {
+   position: relative;
    max-width: 950px;
    margin: 0 auto;
 
-   // border: 1px solid black
+   // border: 3px solid black
 }
+
+// section {
+//    border: 4px solid darkblue;
+// }
 
 // div,
 // form {
@@ -29,3 +34,4 @@ a {
 @import 'blocks/media';
 @import 'blocks/consultation';
 @import 'blocks/forms';
+@import 'blocks/carousel';
