@@ -32,6 +32,10 @@ a {
    color: white
 }
 
+a:hover {
+   color: $main-color
+}
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -40,6 +44,7 @@ a {
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/carousel';
+@import 'blocks/catalog';
 
 
 @import 'blocks/media';

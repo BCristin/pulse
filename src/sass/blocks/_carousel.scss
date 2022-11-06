@@ -35,10 +35,7 @@
       display: none;
    }
 
-   // .tns-item {
-   //    img {
-   //       display: block;
-   //       margin: 0 auto;
-   //    }
-   // }
+   .swiper-pagination-bullet-active {
+      background-color: $main-color;
+   }
 }
