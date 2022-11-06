@@ -65,15 +65,22 @@
 
    .carousel {
 
-      .prev,
-      .next {
+      .swiper-button-next,
+      .swiper-button-prev {
          display: none;
       }
 
-      &__inner {
-         img {
-            max-width: 100%;
-         }
+      img {
+         width: 100%;
+      }
+
+      .swiper-pagination {
+         display: block;
+
+      }
+
+      .swiper-pagination-bullet-active {
+         background-color: $main-color;
       }
    }
 }
