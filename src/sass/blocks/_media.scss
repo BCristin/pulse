@@ -76,7 +76,29 @@
 
       .swiper-pagination {
          display: block;
+      }
+   }
 
+   .catalog {
+      &__tabs {
+         flex-direction: column;
+      }
+
+      &__tab {
+         width: 80%;
+      }
+   }
+
+   .feed {
+      &__item {
+         flex-direction: column;
+         align-items: center;
+         gap: 20px;
+         margin: 40px 30px;
+         border-bottom: 2px solid $main-color;
+         border-radius: 5px;
+         padding: 20px;
+         border-top: 2px solid $main-color;
       }
    }
 }
