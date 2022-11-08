@@ -101,4 +101,11 @@
          border-top: 2px solid $main-color;
       }
    }
+
+   .modal {
+      &__close {
+         right: 10px;
+         top: 10px;
+      }
+   }
 }
